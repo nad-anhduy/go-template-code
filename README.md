@@ -60,6 +60,8 @@ go-template-code/
 │   ├── 001_init_db.down.sql
 │   └── 001_init_db.up.sql
 ├── pkg/                    # Shared packages
+│   ├── db/               # Database clients
+│   │   └── postgress/    # PostgreSQL client
 │   ├── kafka/             # Kafka client and producer
 │   ├── logger/            # Logging utilities
 │   ├── metric/            # Prometheus metrics
